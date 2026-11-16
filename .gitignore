@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Dataset files
+dataset/*.csv
+
+# Machine Learning artifacts
+ml/artifacts/*.pkl
+ml/artifacts/*.joblib
+
+# Django
+backend/db.sqlite3
+backend/staticfiles/
+
+# Logs
+*.log
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
